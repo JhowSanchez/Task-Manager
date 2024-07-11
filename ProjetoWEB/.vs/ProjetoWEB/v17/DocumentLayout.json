@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|c:\\users\\jhow\\source\\repos\\projetoweb\\projetoweb\\wwwroot\\js\\cadastro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|solutionrelative:projetoweb\\wwwroot\\js\\cadastro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|c:\\users\\jhow\\source\\repos\\projetoweb\\projetoweb\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|solutionrelative:projetoweb\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|c:\\users\\jhow\\source\\repos\\projetoweb\\projetoweb\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|solutionrelative:projetoweb\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|c:\\users\\jhow\\source\\repos\\projetoweb\\projetoweb\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60B41748-7779-4FCF-A18F-AE56D8D4625F}|ProjetoWEB\\ProjetoWEB.csproj|solutionrelative:projetoweb\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjetoWEB\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "ProjetoWEB\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T15:42:52.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\wwwroot\\js\\Login.js",
+              "RelativeDocumentMoniker": "ProjetoWEB\\wwwroot\\js\\Login.js",
+              "ToolTip": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\wwwroot\\js\\Login.js",
+              "RelativeToolTip": "ProjetoWEB\\wwwroot\\js\\Login.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-11T15:07:45.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\Views\\Usuario\\Cadastro.cshtml",
+              "RelativeDocumentMoniker": "ProjetoWEB\\Views\\Usuario\\Cadastro.cshtml",
+              "ToolTip": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\Views\\Usuario\\Cadastro.cshtml",
+              "RelativeToolTip": "ProjetoWEB\\Views\\Usuario\\Cadastro.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:26:01.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cadastro.js",
+              "DocumentMoniker": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\wwwroot\\js\\Cadastro.js",
+              "RelativeDocumentMoniker": "ProjetoWEB\\wwwroot\\js\\Cadastro.js",
+              "ToolTip": "C:\\Users\\Jhow\\source\\repos\\ProjetoWEB\\ProjetoWEB\\wwwroot\\js\\Cadastro.js",
+              "RelativeToolTip": "ProjetoWEB\\wwwroot\\js\\Cadastro.js",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-10T23:47:08.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
