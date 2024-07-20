@@ -31,8 +31,8 @@ namespace ProjetoWEB.Controllers
             if (usuario == null)
                 return NotFound(new {msg ="Usuario não encontrando!"});
 
-            if(usuario.Senha == senha)
-                return Ok(new { mensagem = "Login bem-sucedido" });
+            if (usuario.Senha == senha)
+                return RedirectToAction("Index", "Tarefas", new { id = usuario.ID});
             else
                 return NotFound();
 

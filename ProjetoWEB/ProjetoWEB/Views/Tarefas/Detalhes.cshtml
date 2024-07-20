@@ -1,0 +1,32 @@
+﻿@model ProjetoWEB.Models.Tarefas
+@{
+    ViewData["Title"] = "Detalhes Tarefas";
+}
+
+<h1>Detalhes da Tarefa</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.DetalhesTarefa)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.DetalhesTarefa)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.DataTarefa);
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.DataTarefa)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Prioridadade)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Prioridadade)
+        </dt>
+    </dl>
+</div>
+
+<a asp-action="Editar" asp-route-id="@Model.ID"> Editar</a> |
+<a asp-action="Index" asp-route-id="@Model.ID_Usuario">Voltar</a>

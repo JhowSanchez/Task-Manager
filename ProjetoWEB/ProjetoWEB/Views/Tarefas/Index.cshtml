@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ProjetoWEB.Models.Tarefas>
+
+@{
+    ViewData["Title"] = "Lista de Tarefas";
+}
+
+<h2>Lista de Tarefas</h2>
+
+<p>
+    <a asp-action="Criar" asp-route-id="@ViewBag.ID">Nova Tarefa</a>
+
+    <a asp-action="Sair" >Sair da Conta</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Detalhes da Tarefa</th>
+            <th>Data da Tarefa</th>
+            <th>Prioridade</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.DetalhesTarefa</td>
+                    <td>@item.DataTarefa.ToShortDateString()</td>
+                    <td>@item.Prioridadade</td>
+                    <td>
+                        <a asp-action="Editar" asp-route-id="@item.ID">Editar</a> |
+                        <a asp-action="Detalhes" asp-route-id="@item.ID">Detalhes</a> |
+                        <a asp-action="Deletar" asp-route-id="@item.ID">Deletar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">Nenhuma tarefa encontrada.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
